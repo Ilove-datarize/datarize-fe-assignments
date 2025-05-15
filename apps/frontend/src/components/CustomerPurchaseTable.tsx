@@ -147,7 +147,7 @@ export const CustomerPurchaseTable: FC = () => {
             <tr>
               <Th scope="col">ID</Th>
               <Th scope="col">이름</Th>
-              <Th scope="col">총 구매 횟수</Th>
+              <Th scope="col">총 구매 상품</Th>
               <Th scope="col" onClick={toggleSort} style={{ cursor: 'pointer' }}>
                 총 구매 금액 {sortDirection === 'asc' ? '🔼' : '🔽'}
               </Th>

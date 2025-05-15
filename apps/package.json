@@ -6,12 +6,14 @@
   ],
   "scripts": {
     "start-server": "yarn workspace backend start",
-    "start-client": "yarn workspace frontend dev"
+    "start-client": "yarn workspace frontend dev",
+    "test-client": "yarn workspace frontend test"
   },
   "prettier": {
     "singleQuote": true,
     "trailingComma": "all",
     "printWidth": 120,
     "semi": false
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
